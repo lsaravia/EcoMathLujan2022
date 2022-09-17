@@ -5,7 +5,7 @@ output:
 ---
 # Sistemas Complejos en Ecología. Análisis y modelos.
 
-[//]: # Curso de Ecología Matemática utilizando el lenguaje Julia
+<!-- # Curso de Ecología Matemática utilizando el lenguaje Julia -->
 
 En este curso se pretende introducir al estudiante a algunos de los modelos matematicos mas 
 utilizado en ecología, principalmente los modelos de ecuaciones diferenciales y modelos de 
