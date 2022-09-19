@@ -3,9 +3,40 @@ output:
   word_document: default
   html_document: default
 ---
-# Sistemas Complejos en Ecología. Análisis y modelos.
 
+# Denominación del curso
+
+## Sistemas Complejos en Ecología. Análisis y modelos.
 <!-- # Curso de Ecología Matemática utilizando el lenguaje Julia -->
+
+# Docentes
+
+## Responsable académico:
+Doctor Leonardo Saravia
+
+<!-- 
+# Docentes
+
+# Colaboradoree
+
+-->
+
+<!--
+# 3. Fue dictado anteriormente?
+
+El curso no ha sido dictado anteriormente
+
+-->
+
+# Carga horaria
+
+El curso tiene una carga horaria de 32 hs.
+
+# Objetivos y contenidos
+
+## Objetivos
+
+## Programa sintético
 
 En este curso se pretende introducir al estudiante a algunos de los modelos matematicos mas 
 utilizado en ecología, principalmente los modelos de ecuaciones diferenciales y modelos de 
@@ -15,25 +46,6 @@ que origina la necesidad de modelización y las simplificaciones o supuestos nec
 implementación final del modelo. Con esto se espera que los estudiantes tengan un panorama completo
 del proceso de modelización.
 
-## Evaluación
-
-La evaluación consistira en la presentación de un trabajo final con la conceptualización, resolución y 
-simulación de un modelo basado en el tema de estudio del estudiante.
-
-## Duracion y modalidad
-
-La modalidad es virtual compuesta por
-
-Clases teóricas 5 dias 3 hs
-Clases Practicas/taller 5 dias 3 hs
-
-Total 30 hs
-
-## Requisitos
-
-* Licenciatura en Cs. Biológicas, Ambientales, Agroecología, Física, Matemática y disciplinas afines.
-
-* Conocimientos basicos de matemática (derivadas, integrales) y de algun lenguaje de programación
 
 ## Programa Analítico
 
@@ -48,7 +60,17 @@ Total 30 hs
 
 * Simulación de modelos espacialmente explícitos: el bosque en 2 dimensiones. Agregar eventos al algoritmo de Gillespie: natalidad, mortalidad y dispersion. Ajuste de modelos a datos utilizando el metodo de computacion Bayesiana aproximada (ABC), establecimiento de distribuciónes a priori para parametros y ajuste preliminar basado en simulaciones del mismo modelo a estudiar. 
 
-## Bibliografía
+
+# Evaluación del curso
+
+## Requisitos para acceder el certificado de asistencia
+
+## Requisitos para acceder al certificado de aprobación
+
+La evaluación consistira en la presentación de un trabajo final con la conceptualización, resolución y 
+simulación de un modelo basado en el tema de estudio del estudiante.
+
+# Bibliografía
 
 1. Black, A.J. & McKane, A.J. (2012). Stochastic formulation of ecological models and their applications. Trends Ecol. Evol., 27, 337–345 <https://drive.google.com/open?id=0BzexxHVKtpiAY05KZnJpMC10SWM>
 
@@ -63,4 +85,41 @@ Total 30 hs
 2. Berec, L. (2002). Techniques of spatially explicit individual-based models: construction, simulation, and mean-field analysis. Ecological Modelling 150, 55–81. doi:10.1016/S0304-3800(01)00463-X.
  
 1. Hartig, F., Calabrese, J. M., Reineking, B., Wiegand, T., and Huth, A. (2011). Statistical inference for stochastic simulation models – theory and application. Ecology Letters 14, 816–827. doi:10.1111/j.1461-0248.2011.01640.x.
+
+# Período de desarrollo 
+<!-- inicio y finalización, días y horarios de los encuentros -->
+
+El curso se llevará a cabo entre el 12 de noviembre y el 16 de diciembre del corriente año.
+
+Clases teóricas 5 dias 3 hs
+Clases Practicas/taller 5 dias 3 hs y 1 día de dos horas
+
+
+# Modalidad
+
+La modalidad adoptada por el curso será a distancia.
+
+
+# Requisitos de inscripción
+
+## Título requerido
+
+* Licenciatura en Cs. Biológicas, Ambientales, Agroecología, Física, Matemática, Ingeniería Agronómica, en Alimentos, Industrial, y disciplinas afines.
+
+## Otros requisitos
+
+* Conocimientos basicos de matemática (derivadas, integrales) y de algun lenguaje de programación
+
+# Límite de inscriptos
+<!-- si nos parece necesario -->
+
+Mínimo: 5 inscriptos - Máximo: 30 inscriptos 
+
+# Recursos necesarios.
+
+Contar con un espacio de aula virtual.
+
+# Año de vigencia
+
+2022 - 2032
 
