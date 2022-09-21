@@ -121,5 +121,5 @@ Contar con un espacio de aula virtual.
 
 # Año de vigencia
 
-2022 - 2032
+2022 - 2024
 
