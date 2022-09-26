@@ -67,10 +67,12 @@ git y Github para la presentacion de los ejercicios.
 
 ## Requisitos para acceder el certificado de asistencia
 
+Deberán completar 4 de 5 hs de clases teóricas más los ejercicios prácticos de todas las clases, publicados en GitHub. 
+
 ## Requisitos para acceder al certificado de aprobación
 
-La evaluación consistira en la presentación de un trabajo final con la conceptualización, resolución y 
-simulación de un modelo basado en el tema de estudio del estudiante.
+La evaluación consistira en la presentación de los ejercicios prácticos de cada clase más un trabajo final con la conceptualización, resolución y 
+simulación de un modelo basado en el tema de estudio del estudiante. Todos estos trabajos deberán ser publicados en GitHub.
 
 # Bibliografía
 
@@ -115,7 +117,7 @@ La modalidad adoptada por el curso será a distancia.
 # Límite de inscriptos
 <!-- si nos parece necesario -->
 
-Mínimo: 5 inscriptos - Máximo: 30 inscriptos 
+Mínimo: 5 inscriptos - Máximo: 20 inscriptos 
 
 # Recursos necesarios.
 
