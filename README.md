@@ -6,7 +6,7 @@ output:
 
 # Denominación del curso
 
-## Sistemas Complejos en Ecología. Análisis y modelos.
+## Sistemas Complejos en Ecología, Análisis y modelos utilizando el lenguaje Julia
 <!-- # Curso de Ecología Matemática utilizando el lenguaje Julia -->
 
 # Docentes
@@ -44,16 +44,18 @@ procesos estocásticos, tambien se propone codificar y simular estos modelos uti
 de programación Julia. Se le prestará especial atencion a la conceptualización del problema científico 
 que origina la necesidad de modelización y las simplificaciones o supuestos necesarios para la 
 implementación final del modelo. Con esto se espera que los estudiantes tengan un panorama completo
-del proceso de modelización.
+del proceso de modelización. Para incentivar la aplicación de la ciencia abierta se utilizará el control de versiones
+git y Github para la presentacion de los ejercicios. 
 
 
 ## Programa Analítico
+
 
 * Definición de modelo. Variables, constantes, parámetros, tasas. El problema conceptual: definir objetivos. El problema de los datos: cuanto sabemos define el alcance y los supuestos del modelo. Predicción: utilización de escenarios para predecir comportamientos. Reformulación y ciclo de modelado: cambio de estructura, la importancia de la escala.
 
 * Ecuaciones en diferencia para tiempo discreto. Ecuaciones diferenciales para tiempo continuo. Simulaciones probabilística con estocacidad demografica, para individuos discretos. Existencia de puntos de equilibrio estables e inestables. El modelo de crecimiento simple, crecimiento y muerte. El modelo logístico. 
 
-* Introducción a la programación en Julia, vectores, escalares, gráficos simples, generación de números aleatorios, distribuciones de probabilidades. Generación de proyectos, funciones y depuración de codigo.
+* Introducción a la programación en Julia, vectores, escalares, gráficos simples, generación de números aleatorios, distribuciones de probabilidades. Generación de proyectos, funciones y depuración de codigo. Uso de Git y GitHub para control de versiones y publicación de código en el contexto de la ciencia abierta. 
 
 
 * Simulación de ecuaciones diferenciales por el método de Euler, simulación estocástica por el método exacto de Gillespie. Modelos de más de una variable, el ejemplo de fuego en el bosque. Definición de modelos por el metodo de estados y reacciones. Aproximación lineal de Taylor alrededor del punto de equilibrio para determinar estabilidad: el Jacobiano. 
