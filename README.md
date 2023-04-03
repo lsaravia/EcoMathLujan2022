@@ -38,29 +38,21 @@ El curso tiene una carga horaria de 32 hs.
 
 ## Programa sintético
 
-En este curso se pretende introducir al estudiante a algunos de los modelos matematicos mas 
-utilizado en ecología, principalmente los modelos de ecuaciones diferenciales y modelos de 
-procesos estocásticos, tambien se propone codificar y simular estos modelos utilizando el lenguaje
-de programación Julia. Se le prestará especial atencion a la conceptualización del problema científico 
-que origina la necesidad de modelización y las simplificaciones o supuestos necesarios para la 
-implementación final del modelo. Con esto se espera que los estudiantes tengan un panorama completo
-del proceso de modelización. Para incentivar la aplicación de la ciencia abierta se utilizará el control de versiones
-git y Github para la presentacion de los ejercicios. 
+En este curso se pretende introducir al estudiante a algunos de los modelos matemáticos más utilizado en ecología, principalmente los modelos de ecuaciones diferenciales y modelos de procesos estocásticos, también se propone codificar y simular estos modelos utilizando el lenguaje de programación Julia. Se le prestará especial atención a la conceptualización del problema científico que origina la necesidad de modelización y las simplificaciones o supuestos necesarios para la implementación final del modelo. Con esto se espera que los estudiantes tengan un panorama completo del proceso de modelización. Para incentivar la aplicación de la ciencia abierta se utilizará el control de versiones git y Github para la presentación de los ejercicios.
 
 
 ## Programa Analítico
 
 
-* Definición de modelo. Variables, constantes, parámetros, tasas. El problema conceptual: definir objetivos. El problema de los datos: cuanto sabemos define el alcance y los supuestos del modelo. Predicción: utilización de escenarios para predecir comportamientos. Reformulación y ciclo de modelado: cambio de estructura, la importancia de la escala.
-
-* Ecuaciones en diferencia para tiempo discreto. Ecuaciones diferenciales para tiempo continuo. Simulaciones probabilística con estocacidad demografica, para individuos discretos. Existencia de puntos de equilibrio estables e inestables. El modelo de crecimiento simple, crecimiento y muerte. El modelo logístico. 
+* Definición de modelo. Variables, constantes, parámetros, tasas. El problema conceptual: definir objetivos. El problema de los datos: cuanto sabemos define el alcance y los supuestos del modelo. Predicción: utilización de escenarios para predecir comportamientos. Reformulación y ciclo de modelado: cambio de estructura, la importancia de la escala. Ejemplos.
 
 * Introducción a la programación en Julia, vectores, escalares, gráficos simples, generación de números aleatorios, distribuciones de probabilidades. Generación de proyectos, funciones y depuración de codigo. Uso de Git y GitHub para control de versiones y publicación de código en el contexto de la ciencia abierta. 
 
+* Ecuaciones en diferencia para tiempo discreto. Ecuaciones diferenciales para tiempo continuo. Simulaciones probabilística con estocacidad demográfica, para individuos discretos. Existencia de puntos de equilibrio estables e inestables. El modelo de crecimiento simple, crecimiento y muerte. El modelo logístico. 
 
 * Simulación de ecuaciones diferenciales por el método de Euler, simulación estocástica por el método exacto de Gillespie. Modelos de más de una variable, el ejemplo de fuego en el bosque. Definición de modelos por el metodo de estados y reacciones. Aproximación lineal de Taylor alrededor del punto de equilibrio para determinar estabilidad: el Jacobiano. 
 
-* Simulación de modelos espacialmente explícitos: el bosque en 2 dimensiones. Agregar eventos al algoritmo de Gillespie: natalidad, mortalidad y dispersion. Ajuste de modelos a datos utilizando el metodo de computacion Bayesiana aproximada (ABC), establecimiento de distribuciónes a priori para parametros y ajuste preliminar basado en simulaciones del mismo modelo a estudiar. 
+* Simulación de modelos espacialmente explícitos: el bosque en 2 dimensiones. Agregar eventos al algoritmo de Gillespie: natalidad, mortalidad y dispersión. Ajuste de modelos a datos utilizando el método de computación Bayesiana aproximada (ABC), establecimiento de distribuciónes a priori para parámetros y ajuste preliminar basado en simulaciones del mismo modelo a estudiar. 
 
 
 # Evaluación del curso
@@ -71,7 +63,7 @@ Deberán completar 4 de 5 hs de clases teóricas más los ejercicios prácticos 
 
 ## Requisitos para acceder al certificado de aprobación
 
-La evaluación consistira en la presentación de los ejercicios prácticos de cada clase más un trabajo final con la conceptualización, resolución y 
+La evaluación consistirá en la presentación de los ejercicios prácticos de cada clase más un trabajo final con la conceptualización, resolución y 
 simulación de un modelo basado en el tema de estudio del estudiante. Todos estos trabajos deberán ser publicados en GitHub.
 
 # Bibliografía
