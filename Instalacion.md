@@ -1,4 +1,9 @@
-# Curso Sistemas Complejos en Ecología 2022 - UNLu 
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# Curso Sistemas Complejos en Ecología 2023 - UNLu 
 
 ## Modelando con Julia
 
@@ -9,24 +14,26 @@
   https://julialang.org/downloads/platform/
 
 * En linux hay distintas opciones pero despuede de descargar y descomprimir el archivo como explica en la página se puede crear un `symbolic link` 
-  al directorio donde se instaló julia en mi caso `~/julia-1.7.1/bin/julia` a un directorio que ya este en el PATH `~/bin/julia`
+  al directorio donde se instaló julia en mi caso `~/julia-1.9.0/bin/julia` a un directorio que ya este en el PATH `~/bin/julia`
 
 ```
->ln -s ~/julia-1.7.1/bin/julia ~/bin/julia
+>ln -s ~/julia-1.9.0/bin/julia ~/bin/julia
 
 ```
 
 o tambien
 
 ```
->ln -s ~/julia-1.7.1/bin/julia /usr/local/bin/julia
+>ln -s ~/julia-1.9.0/bin/julia /usr/local/bin/julia
 
 ```
 
 * Para actualizar la version es lo mismo pero hay que cambiar el `symbolic link` a la carpeta nueva
 
->ln -sf ~/julia-1.8.1/bin/julia ~/bin/julia
+```
+>ln -sf ~/julia-1.9.1/bin/julia ~/bin/julia
 
+```
 
 * Inicialmente el lenguaje se instala como un REPL (read-eval-print-loop) que es una línea de comandos interactiva.
 
@@ -40,36 +47,25 @@ https://code.visualstudio.com/Download
 
 Luego de instalar VSCode, hay que instalar la extensión para Julia, ir al boton de extensiones
 
-![](Images/fig4-extension.png)
 
 Tipear Julia en la barra de busqueda y presionar `install` 
 
-![](Images/fig5-julia.png)
+
+Aqui hay instrucciones detalladas https://www.julia-vscode.org/docs/stable/gettingstarted/
 
 
-## 3. Instalar Pluto.jl notebook (No es necesario)
 
-* Opcionalmente se puede utilizar **Pluto** o **VSCode**
+## 3. Instalar git y enlazar con github
 
-Podemos usar el entorno computacional [Pluto.jl](https://github.com/fonsp/Pluto.jl). Se puede instalar de la siguiente manera:
+1) Crear una cuenta de github en https://github.com/
 
-1. Ejecutar Julia.
 
-2. En la linea de comandos de Julia `julia> `, escribir
+1) Instalación de git local https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git
 
-```jl
-julia> ] add Pluto
-julia> 
-```
+2) Configuración https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Configurando-Git-por-primera-vez
 
-3. Cuando esto terminó en la linea de comandos `julia> ` tipear
+> ## El mail que se usa para git debe ser el mismo que se usó para la cuenta de github
 
-```jl
-julia> using Pluto
 
-julia> Pluto.run()
 
-```
-* Los primeros pasos en Pluto <https://www.juliafordatascience.com/first-steps-5-pluto/>
 
-* Atajos de teclado: ✅ F1 or Ctrl+Shift+? List shortcuts ✅ Shift+Enter Run cell ✅ Ctrl+Enter Run cell if the code changed and add a new cell below ✅ Ctrl+S Run all cells with modified...

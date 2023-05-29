@@ -23,6 +23,22 @@ xaringanExtra::use_scribble()
 #xaringanExtra::use_webcam()
 ```
 
+## Modelos estáticos vs. dinámicos
+
+
+### La mayoria de las actividades científicas implican una forma de modelado
+
+### Un marco teórico muchas veces implica un modelo que podría ser formalizado como algoritmo o expresión matemática
+
+### Muchas veces cuando hacemos mediciones también estamos aplicando modelos!!
+
+### Debemos ser concientes de esto modelos que estamos aplicando
+
+### Los modelos estadísticos usuales son llamados estáticos.
+
+### Los modelos dinámicos incluyen el cambio de las variables de estado en el tiempo 
+
+---
 ## Deterministas vs. Estocásticos 
 
 * ¿Cuales son las suposiciones de las ecuaciones diferenciales?
@@ -106,11 +122,8 @@ $$\dfrac{dP_N(t)}{dt}=-P_N(t)\lambda N  + P_{N-1}(t) \lambda (N-1)$$
     $e^{-\lambda N s}=Y$
     
     $s = -\dfrac{log_e(Y)}{\lambda N}$
-   
 
----
-
-## Ejercicios
+--
 
 * ¿Cuales son las suposiciones del modelo estocástico?
 
@@ -118,7 +131,12 @@ $$\dfrac{dP_N(t)}{dt}=-P_N(t)\lambda N  + P_{N-1}(t) \lambda (N-1)$$
     
     * Los nacimientos y las muertes son variables entre los individiduos: estocacidad demográfica.
 
---
+   
+
+---
+
+## Ejercicios
+
 
 * Simular el crecimiento exponencial determinista.
 
@@ -128,7 +146,11 @@ $$\dfrac{dP_N(t)}{dt}=-P_N(t)\lambda N  + P_{N-1}(t) \lambda (N-1)$$
 
 --
 
-* Como sería el modelo en que los individuos solo mueren? 
+* Simular el modelo en que los individuos solo mueren.
+
+--
+
+* Hacer que la tasa de nacimiento o mortalidad dependa de un factor externo, por ejemplo la temperatura.
 
 ---
 
