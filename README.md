@@ -70,9 +70,10 @@ simulación de un modelo basado en el tema de estudio del estudiante. Todos esto
 
 1. Black, A.J. & McKane, A.J. (2012). Stochastic formulation of ecological models and their applications. Trends Ecol. Evol., 27, 337–345 <https://drive.google.com/open?id=0BzexxHVKtpiAY05KZnJpMC10SWM>
 
-1. Renshaw, E. (1993). Modelling biological populations in space and time. Cambridge University Press. Capitulo 2
+1. Renshaw, E. (1993). Modelling biological populations in space and time. Cambridge University Press. Capitulo 2 <https://drive.google.com/file/d/1TZRtzkS6TrBNJj5D_xYeeonVt-8Biqgw/view?usp=sharing>
 
-1. Otto S.P. & Day T. (2007). A Biologist’s Guide to Mathematical Modeling in Ecology and Evolution. Princeton University Press. Chapter 13
+1. Otto S.P. & Day T. (2007). A Biologist’s Guide to Mathematical Modeling in Ecology and Evolution. Princeton University Press. Chapter 13 <https://drive.google.com/file/d/1uoszDjNt2LIIQs3gvWNbrVsV1dUsigJQ/view?usp=sharing>
+
 
 1. Hastings A. & Gross L. (Editors). (2012) Encyclopedia of Theoretical Ecology. University of California Press. 
 
