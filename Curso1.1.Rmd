@@ -1,8 +1,8 @@
 ---
-title: "Ecología Estocastica - 1.1"
-subtitle: "Crecimiento exponencial"
+title: "Sistemas Complejos en Ecología - 1.1"
+subtitle: "Conceptos Generales - Crecimiento exponencial"
 author: "L.A. Saravia"
-date: "04/2022"
+date: "06/2023"
 editor_options:
   chunk_output_type: console
 output:
@@ -23,20 +23,67 @@ xaringanExtra::use_scribble()
 #xaringanExtra::use_webcam()
 ```
 
-## Modelos estáticos vs. dinámicos
+## Sistemas complejos 
 
+* Muchos componentes que interactuan de formas no lineales
 
-### La mayoria de las actividades científicas implican una forma de modelado
+--
 
-### Un marco teórico muchas veces implica un modelo que podría ser formalizado como algoritmo o expresión matemática
+* Tienen comportamientos emergentes/inesperados 
 
-### Muchas veces cuando hacemos mediciones también estamos aplicando modelos!!
+--
 
-### Debemos ser concientes de esto modelos que estamos aplicando
+* Modelos --> Sabemos que están mal: son modelos no la realidad
 
-### Los modelos estadísticos usuales son llamados estáticos.
+--
 
-### Los modelos dinámicos incluyen el cambio de las variables de estado en el tiempo 
+* Creen que los sistemas biológicos funcionan de forma lineal?
+
+--
+
+* Están formados por partes independientes que se suman? cuales son las retroalimentaciones? 
+
+--
+
+* Escalas espaciales: cual es la escala espacial significativa?: es la escala de nuestras observaciones/experimentos?
+
+--
+
+* Escalas temporales: los experimentos son el resultado del tratamiento o un transiente? Cómo encontrar la escala temporal significativa?
+
+--
+
+* Variables de estado y variables forzantes=externas o ambientales
+---
+
+## Del problema al concepto - el flujo de trabajo científico
+
+* Problema, hay un problema o es una exploración?
+
+--
+
+* Modelo científico conceptual
+
+--
+
+* Modelo matemático/estadístico/computacional
+
+--
+
+* Contrastación con los datos/ las predicciones del modelo son observadas?
+
+--
+
+* Modelos como hipótesis
+
+--
+
+* Volver al comienzo, reformular problema/modelo conceptual/ etc.
+
+---
+class: inverse, center, middle
+
+## Ejercicio en documento de Google
 
 ---
 ## Deterministas vs. Estocásticos 
@@ -54,6 +101,10 @@ xaringanExtra::use_scribble()
 --
 
 * Pero si cultivamos una población experimental con un ambiente controlado, siempre vamos a encontrar los mismos resultados?
+
+--
+
+* Hay Factores externos e internos de las poblaciones. 
 
 ---
 
@@ -129,7 +180,7 @@ $$\dfrac{dP_N(t)}{dt}=-P_N(t)\lambda N  + P_{N-1}(t) \lambda (N-1)$$
 
     * El proceso es una cadena de Markov, el estado futuro es dependiente del estado actual, independiente de los estados anteriores: $N \xrightarrow{\lambda N}N+1$
     
-    * Los nacimientos y las muertes son variables entre los individiduos: estocacidad demográfica.
+    * Los nacimientos o muertes son variables entre los individiduos: estocacidad demográfica.
 
    
 
@@ -137,20 +188,18 @@ $$\dfrac{dP_N(t)}{dt}=-P_N(t)\lambda N  + P_{N-1}(t) \lambda (N-1)$$
 
 ## Ejercicios
 
+* Subir el código al repositorio de github de cada uno con el nombre Ejercicio01.jl
 
-* Simular el crecimiento exponencial determinista.
-
---
-
-* Simular el crecimiento estocastico exponencial.
+* Función para el Crecimiento exponencial deterministico discreto 
+  con intervalo de tiempo $h$ variable
 
 --
 
-* Simular el modelo en que los individuos solo mueren.
+* Función para el Decrecimiento exponencial estocastico
 
 --
 
-* Hacer que la tasa de nacimiento o mortalidad dependa de un factor externo, por ejemplo la temperatura.
+* Adicional: Hacer que la tasa de nacimiento o mortalidad dependa de un factor externo, por ejemplo la temperatura.
 
 ---
 

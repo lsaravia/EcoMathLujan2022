@@ -77,7 +77,7 @@ simulación de un modelo basado en el tema de estudio del estudiante. Todos esto
 
 1. Hastings A. & Gross L. (Editors). (2012) Encyclopedia of Theoretical Ecology. University of California Press. 
 
-1. Durrett, R., and Levin, S. A. (1994). Stochastic spatial models: a user’s guide to ecological aplications. Philosophical transactions of the Royal Society of London. Series B 343, 329–350.
+1. Durrett, R., and Levin, S. A. (1994). Stochastic spatial models: a user’s guide to ecological aplications. Philosophical transactions of the Royal Society of London. Series B 343, 329–350. 
 
 2. Berec, L. (2002). Techniques of spatially explicit individual-based models: construction, simulation, and mean-field analysis. Ecological Modelling 150, 55–81. doi:10.1016/S0304-3800(01)00463-X.
  
